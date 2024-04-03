@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="main-container relative w-full h-screen bg-zinc-800 font-['josefin'] overflow-hidden">
+
+        <div class="imgcontaienr w-full h-full relative">
+        <div class="maincard absolute w-[115%] h-[115%] left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2 z-[3]">
+            <img class="w-full h-full object-cover object-center" src="" alt="main-img">
+        </div>
+        <div class="incomingcard absolute w-[115%] h-[115%] left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2 z-[2]">
+            <img class="w-full h-full object-cover object-center" src="" alt="main-img">
+        </div>
+    </div>
+
+    <div class="absolute top-0 left-0 w-full h-screen z-[5] flex flex-col justify-between">
+
+        <div class="navbar w-full flex items-center justify-between px-4 py-5">
+            <div class="nv-img w-[3rem] h-[3rem] rounded-full overflow-hidden">
+                <img class="profilepic w-full h-full object-cover" src="" alt="liked-men">
+            </div>
+            <h1 class="capitalize text-lg leading-none font-medium text-white tracking-tight">they liked you</h1>
+            <div class="cursor-pointer chatbox flex items-center justify-center w-[3rem] h-[3rem] rounded-full bg-white/25 relative">
+                <i class="ri-chat-1-fill text-white text-[1.7rem]"></i>
+                <span class="badge absolute -top-0.5 right-0 text-white text-[0.7rem] font-semibold inline-block bg-red-500 rounded-full flex items-center justify-center w-4 h-4">
+                    
+                </span>
+            </div>
+        </div>
+
+        <div class="detaiscontainer">
+            <div class="details px-4 w-full pb-5">
+
+                <div class="element location flex items-center gap-2">
+                    <i class="text-xl w-7 h-7 flex items-center justify-center rounded-full bg-white ri-corner-left-up-fill"></i>
+                    <p class="leading-none font-regular text-md text-white"></p>
+                </div>
+    
+                <div class="element namebox w-full text-white text-6xl flex items-center gap-3 mt-4 font-light tracking-tight">
+                    <h2></h2>
+                    <h3 class="opacity-60">20</h3>
+                </div>
+    
+                <div class="element tags w-full flex gap-2 text-white mt-1">
+
+                </div>
+    
+                <div class="element biotext mt-6">
+                    <h3 class="text-xl text-white">Bio :-</h3>
+                    <p class="text-md leading-6 mt-1 text-white/65 pr-18">
+                        
+                    </p>
+                </div>
+
+                <div class="element buttons w-full flex items-center gap-2 mt-8">
+                    <div class="deny cursor-pointer bg-zinc-100 w-1/2 text-3xl flex items-center justify-center py-2.5 rounded-xl font-bold">
+                        <i class="ri-close-large-fill text-black"></i>
+                    </div>
+                    <div class="accept cursor-pointer bg-red-500 w-1/2 text-3xl flex items-center justify-center py-2.5 rounded-xl font-bold">
+                        <i class="ri-heart-3-fill text-white"></i>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+
+
+    </div>
+
+
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

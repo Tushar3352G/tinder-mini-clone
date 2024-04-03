@@ -1,0 +1,22 @@
+@font-face {
+    font-family:'josefin';
+    src: url(./font/JosefinSans-Regular.woff2);
+    font-display:swap;
+}
+
+.detaiscontainer
+{
+    background:linear-gradient(to bottom, transparent, rgb(23, 23, 23));
+}
+
+@media (min-width:768px){
+
+    body{
+        background:rgb(48, 47, 47);
+    }
+
+    .main-container{
+        width:414px !important;
+        margin-inline:auto;
+    }
+}
